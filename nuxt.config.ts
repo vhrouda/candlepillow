@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     families: [
       { name: 'Poppins', provider: 'google' },
       { name: 'Inter Tight', provider: 'google' },
+      { name: "Luxurious Script", provider: "google"}
     ]
   },
   vuefire: {

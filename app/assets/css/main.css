@@ -17,3 +17,9 @@ body {
   font-family: "Inter Tight", sans-serif;
   font-size: 1rem;
 }
+
+#__nuxt {
+  width: theme("maxWidth.screen-xl");
+  margin: 0 auto;
+  padding: 4px 0;
+}

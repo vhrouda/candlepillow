@@ -1,5 +1,5 @@
 <template>
-  <img src="/image/logo/candlepillow.svg" width="200" height="200" alt="Candle Pillow" class="absolute inset-0 m-auto">
+  <img src="/image/logo/cp.svg" width="420" height="100" alt="Candle Pillow" class="absolute inset-0 m-auto">
 </template>
 
 <script setup lang="ts">

@@ -3,12 +3,20 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   ssr: false,
-
+  css: ['./assets/css/main.css'],
   future: {
     compatibilityVersion: 4
   },
-
-  modules: ['nuxt-vuefire', "@nuxtjs/tailwindcss"],
+  modules: ['nuxt-vuefire', "@nuxtjs/tailwindcss", "@nuxt/fonts"],
+  fonts: {
+    defaults: {
+      weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+    },
+    families: [
+      { name: 'Poppins', provider: 'google' },
+      { name: 'Inter Tight', provider: 'google' },
+    ]
+  },
   vuefire: {
     config: {
       apiKey: "AIzaSyBlZAG6J5lG_Cd50LM8v1UBCstI6iyZQ9Y",

@@ -1,0 +1,11 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: theme("colors.slate.800");
+  font-family: "Inter Tight", sans-serif;
+  font-size: 1rem;
+}

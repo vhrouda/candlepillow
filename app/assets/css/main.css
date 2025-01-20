@@ -16,9 +16,4 @@ body {
   color: theme("colors.slate.800");
   font-family: "Inter Tight", sans-serif;
   font-size: 1rem;
-  background-image: url("/image/candlePillow.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
 }
